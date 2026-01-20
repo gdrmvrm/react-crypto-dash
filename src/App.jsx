@@ -40,7 +40,14 @@ const App = () => {
 
   return (
     <div>
-      <h1>🚀 Crypto Dash</h1>
+      <h1>
+        <img
+          src='/cryptoDash.png'
+          alt='Crypto Dash'
+          className='crypto-dash-logo'
+        />
+        Crypto Dash
+      </h1>
       {loading && <p>Loading...</p>}
       {error && <div className='error'>{error}</div>}
 
