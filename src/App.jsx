@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import HomePage from './pages/home';
 import { Routes, Route } from 'react-router';
+
+import HomePage from './pages/home';
 
 const API_URL = import.meta.env.VITE_API_URL;
 
