@@ -264,6 +264,29 @@ a {
   animation: slideUp 0.3s ease;
 }
 
+/* Not Found Page */
+.not-found-container {
+  text-align: center;
+  padding: 80px 20px;
+  color: #fff;
+}
+
+.not-found-title {
+  font-size: 72px;
+  margin-bottom: 20px;
+}
+
+.not-found-message {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.not-found-link {
+  text-decoration: none;
+  color: #eb7729;
+  font-weight: bold;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;

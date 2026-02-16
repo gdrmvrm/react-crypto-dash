@@ -40,6 +40,7 @@ const HomePage = ({
           return 0;
       }
     });
+
   return (
     <div>
       {loading && <p>Loading...</p>}
